@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mic{
+    width: 13px;
+}
+nav{
+    display: flex;
+    pad: 0 10px;
+    justify-content: space-between;
+}
+
+.leftHeader{
+    display: inline-block;
+    margin: 0 5px;
+}
+.rightHeader{
+    display: inline-block;
+    margin:0 5px;
+}
+header{
+    margin: 5px 0;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+}
+nav u li a:visited{
+    color: grey;
+}
+nav button{
+    background-color: rgb(36, 97, 210);
+    color: white;
+    padding: 5px;
+    text-align: center;
+    margin-top: 0 ;
+    text-decoration: none;
+    
+}
+.righ{
+    /* display: flex;
+    align-items: center; */
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 230px;
+    gap: 20px  ;
+}
+.searchBar{
+    position: relative;
+
+}
+.searchInput{
+    width: 500px;
+    height: 30px;
+    border-radius: 50px;
+    border: 1px solid #b3b3b3;
+    text-indent: 40px;
+
+}
+.searchInput:focus{
+    outline: none;
+}
+.mic{
+    position: absolute;
+    top: 7px;
+    right: 12px;
+}
+.searchIcon{
+    position: absolute;
+    top: 7px;
+    left: 12px;
+}
+
+.googleSearch{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+nav a{
+    cursor: pointer;
+}
+
